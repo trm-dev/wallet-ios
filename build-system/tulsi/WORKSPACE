@@ -2,7 +2,7 @@ load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
 
 local_repository(
     name = "build_bazel_rules_apple",
-    path = "../bazel_rules/rules_apple",
+    path = "../bazel-rules/rules_apple",
 )
 
 load(
